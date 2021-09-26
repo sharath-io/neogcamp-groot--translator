@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #34D399;
+    --text-color: #111827;
+}
+
+.heading {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+textarea {
+    padding: 2rem;
+    display: block;
+    width: 40%;
+    height: 15vh;
+    margin: 2rem auto;
+}
+
+#output {
+    padding: 2rem;
+    border: 1px solid black;
+    width: 40%;
+    height: 15vh;
+    margin: 2rem auto;
+}
+
+#btn-Translate{
+    margin: 0.5rem auto;
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    color: var(--text-color);
+    padding: 2rem;
+}
